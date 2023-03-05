@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-limiter = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+asgiref = "*"
+a2wsgi = "*"
+py-swagger-ui = "*"
+importlib_metadata = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
